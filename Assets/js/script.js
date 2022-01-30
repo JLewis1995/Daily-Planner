@@ -2,9 +2,6 @@ let currentDay = moment();
 let currentHour = new Date().getHours();
 let saveButton = $(".saveBtn");
 
-
-
-
 $("#currentDay").text(currentDay.format("dddd, MMMM Do YYYY, ha"));
 
 
